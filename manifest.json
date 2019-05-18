@@ -5,8 +5,8 @@
   "permissions": ["tabs", "webNavigation", "activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",
   "background": {
-    "page": "background.html",
-    "persistent": false
+    "scripts": ["background.js"],
+    "persistent": true
   },
   "page_action": {
     "default_popup": "popup.html",
